@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAEF92C21639FFD500496326 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAEF92C11639FFD500496326 /* UIKit.framework */; };
+		AAEF92C41639FFD500496326 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAEF92C31639FFD500496326 /* Foundation.framework */; };
+		AAEF92C61639FFD500496326 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAEF92C51639FFD500496326 /* CoreGraphics.framework */; };
+		AAEF92CC1639FFD500496326 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAEF92CA1639FFD500496326 /* InfoPlist.strings */; };
+		AAEF92CE1639FFD500496326 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEF92CD1639FFD500496326 /* main.m */; };
+		AAEF92D21639FFD500496326 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEF92D11639FFD500496326 /* AppDelegate.m */; };
+		AAEF92D41639FFD500496326 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AAEF92D31639FFD500496326 /* Default.png */; };
+		AAEF92D61639FFD500496326 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAEF92D51639FFD500496326 /* Default@2x.png */; };
+		AAEF92D81639FFD500496326 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAEF92D71639FFD500496326 /* Default-568h@2x.png */; };
+		AAEF92DB1639FFD500496326 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAEF92D91639FFD500496326 /* MainStoryboard.storyboard */; };
+		AAEF92DE1639FFD500496326 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEF92DD1639FFD500496326 /* ViewController.m */; };
+		AAEF92E9163A064A00496326 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAEF92E8163A064A00496326 /* ExternalAccessory.framework */; };
+		AAF2DAC7181375C0004FE255 /* BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF2DAC5181375C0004FE255 /* BLE.m */; };
+		AAF2DAC9181375E2004FE255 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF2DAC8181375E2004FE255 /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AAEF92BD1639FFD500496326 /* HelloWorldBluetooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorldBluetooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAEF92C11639FFD500496326 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AAEF92C31639FFD500496326 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AAEF92C51639FFD500496326 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AAEF92C91639FFD500496326 /* HelloWorldBluetooth-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorldBluetooth-Info.plist"; sourceTree = "<group>"; };
+		AAEF92CB1639FFD500496326 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AAEF92CD1639FFD500496326 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAEF92CF1639FFD500496326 /* HelloWorldBluetooth-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorldBluetooth-Prefix.pch"; sourceTree = "<group>"; };
+		AAEF92D01639FFD500496326 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAEF92D11639FFD500496326 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAEF92D31639FFD500496326 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AAEF92D51639FFD500496326 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AAEF92D71639FFD500496326 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AAEF92DA1639FFD500496326 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AAEF92DC1639FFD500496326 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AAEF92DD1639FFD500496326 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AAEF92E8163A064A00496326 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		AAF2DAC4181375C0004FE255 /* BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLE.h; sourceTree = "<group>"; };
+		AAF2DAC5181375C0004FE255 /* BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLE.m; sourceTree = "<group>"; };
+		AAF2DAC6181375C0004FE255 /* BLEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDefines.h; sourceTree = "<group>"; };
+		AAF2DAC8181375E2004FE255 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAEF92BA1639FFD500496326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF2DAC9181375E2004FE255 /* CoreBluetooth.framework in Frameworks */,
+				AAEF92E9163A064A00496326 /* ExternalAccessory.framework in Frameworks */,
+				AAEF92C21639FFD500496326 /* UIKit.framework in Frameworks */,
+				AAEF92C41639FFD500496326 /* Foundation.framework in Frameworks */,
+				AAEF92C61639FFD500496326 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAEF92B21639FFD500496326 = {
+			isa = PBXGroup;
+			children = (
+				AAEF92E8163A064A00496326 /* ExternalAccessory.framework */,
+				AAEF92C71639FFD500496326 /* HelloWorldBluetooth */,
+				AAEF92C01639FFD500496326 /* Frameworks */,
+				AAEF92BE1639FFD500496326 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAEF92BE1639FFD500496326 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAEF92BD1639FFD500496326 /* HelloWorldBluetooth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAEF92C01639FFD500496326 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAF2DAC8181375E2004FE255 /* CoreBluetooth.framework */,
+				AAF2DAC3181375C0004FE255 /* BLE_Framework */,
+				AAEF92C11639FFD500496326 /* UIKit.framework */,
+				AAEF92C31639FFD500496326 /* Foundation.framework */,
+				AAEF92C51639FFD500496326 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAEF92C71639FFD500496326 /* HelloWorldBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				AAEF92D01639FFD500496326 /* AppDelegate.h */,
+				AAEF92D11639FFD500496326 /* AppDelegate.m */,
+				AAEF92D91639FFD500496326 /* MainStoryboard.storyboard */,
+				AAEF92DC1639FFD500496326 /* ViewController.h */,
+				AAEF92DD1639FFD500496326 /* ViewController.m */,
+				AAEF92C81639FFD500496326 /* Supporting Files */,
+			);
+			name = HelloWorldBluetooth;
+			path = HelloWorldBluetooth;
+			sourceTree = "<group>";
+		};
+		AAEF92C81639FFD500496326 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAEF92C91639FFD500496326 /* HelloWorldBluetooth-Info.plist */,
+				AAEF92CA1639FFD500496326 /* InfoPlist.strings */,
+				AAEF92CD1639FFD500496326 /* main.m */,
+				AAEF92CF1639FFD500496326 /* HelloWorldBluetooth-Prefix.pch */,
+				AAEF92D31639FFD500496326 /* Default.png */,
+				AAEF92D51639FFD500496326 /* Default@2x.png */,
+				AAEF92D71639FFD500496326 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAF2DAC3181375C0004FE255 /* BLE_Framework */ = {
+			isa = PBXGroup;
+			children = (
+				AAF2DAC4181375C0004FE255 /* BLE.h */,
+				AAF2DAC5181375C0004FE255 /* BLE.m */,
+				AAF2DAC6181375C0004FE255 /* BLEDefines.h */,
+			);
+			path = BLE_Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAEF92BC1639FFD500496326 /* HelloWorldBluetooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAEF92E11639FFD500496326 /* Build configuration list for PBXNativeTarget "HelloWorldBluetooth" */;
+			buildPhases = (
+				AAEF92B91639FFD500496326 /* Sources */,
+				AAEF92BA1639FFD500496326 /* Frameworks */,
+				AAEF92BB1639FFD500496326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWorldBluetooth;
+			productName = HelloWorldBluetooth;
+			productReference = AAEF92BD1639FFD500496326 /* HelloWorldBluetooth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAEF92B41639FFD500496326 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Stephen Jernigan";
+			};
+			buildConfigurationList = AAEF92B71639FFD500496326 /* Build configuration list for PBXProject "HelloWorldBluetooth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AAEF92B21639FFD500496326;
+			productRefGroup = AAEF92BE1639FFD500496326 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAEF92BC1639FFD500496326 /* HelloWorldBluetooth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAEF92BB1639FFD500496326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAEF92CC1639FFD500496326 /* InfoPlist.strings in Resources */,
+				AAEF92D41639FFD500496326 /* Default.png in Resources */,
+				AAEF92D61639FFD500496326 /* Default@2x.png in Resources */,
+				AAEF92D81639FFD500496326 /* Default-568h@2x.png in Resources */,
+				AAEF92DB1639FFD500496326 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAEF92B91639FFD500496326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAEF92CE1639FFD500496326 /* main.m in Sources */,
+				AAEF92D21639FFD500496326 /* AppDelegate.m in Sources */,
+				AAEF92DE1639FFD500496326 /* ViewController.m in Sources */,
+				AAF2DAC7181375C0004FE255 /* BLE.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAEF92CA1639FFD500496326 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAEF92CB1639FFD500496326 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AAEF92D91639FFD500496326 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAEF92DA1639FFD500496326 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAEF92DF1639FFD500496326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AAEF92E01639FFD500496326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAEF92E21639FFD500496326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloWorldBluetooth/HelloWorldBluetooth-Prefix.pch";
+				INFOPLIST_FILE = "HelloWorldBluetooth/HelloWorldBluetooth-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/HelloWorldBluetooth\"",
+				);
+				PRODUCT_NAME = HelloWorldBluetooth;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AAEF92E31639FFD500496326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloWorldBluetooth/HelloWorldBluetooth-Prefix.pch";
+				INFOPLIST_FILE = "HelloWorldBluetooth/HelloWorldBluetooth-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/HelloWorldBluetooth\"",
+				);
+				PRODUCT_NAME = HelloWorldBluetooth;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAEF92B71639FFD500496326 /* Build configuration list for PBXProject "HelloWorldBluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAEF92DF1639FFD500496326 /* Debug */,
+				AAEF92E01639FFD500496326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAEF92E11639FFD500496326 /* Build configuration list for PBXNativeTarget "HelloWorldBluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAEF92E21639FFD500496326 /* Debug */,
+				AAEF92E31639FFD500496326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAEF92B41639FFD500496326 /* Project object */;
+}
